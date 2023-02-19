@@ -29,6 +29,11 @@ nav{
 
 nav img{
     width: 10rem;
+    transition:  transform .6s ease;
+}
+
+nav img:hover{
+    transform: scale(1.1);
 }
 
 .gameContainer{ 
@@ -109,11 +114,12 @@ nav img{
     font-family: 'Baloo Bhaina 2';
     font-size: 18px;
     font-weight:bolder;
-    transition: all .5s;
+    transition: all .5s ease;
 }
 
 #reset:hover{
     background: #ffff00;
+    transform: scale(1.4) translateX(20px) translateY(-10px);
 }
 
 .line{
